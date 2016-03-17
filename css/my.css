@@ -1,24 +1,24 @@
 /*Globals*/
+
 html, body {
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5em;
   background-color: rgba(245, 245, 245, 0.5);
 }
-
 a:hover {
   transition: 0.5s;
 }
 
+/*Nav*/
+
 nav a:hover {
   background-color: rgb(33, 140, 244);
 }
-
 .mdl-layout__header-row .is-active {
   position: relative;
   font-weight: bold;
 }
-
 .mdl-layout__header-row .is-active:after {
   content: "";
   width: 70%;
@@ -27,29 +27,9 @@ nav a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgb(255,171,64);
+  background-color: rgb(255, 171, 64);
   left: 15%;
 }
-
-.main a {
-  text-decoration: none;
-}
-
-/* Rules for sizing the icon. */
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-
-/* Rules for using icons as black on a light background. */
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
-.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
-
-/* Rules for using icons as white on a dark background. */
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
-.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
-
-
 .mdl-layout-title {
   font-weight: 500;
 }
@@ -59,11 +39,20 @@ nav a:hover {
   font-weight: 500;
 }
 
+/*Main*/
+
+.main a {
+  text-decoration: none;
+}
 .top-contacts {
+  justify-content: space-around;
   text-align: center;
   background-color: rgb(240, 240, 240);
 }
-
+.top-contacts>.mdl-cell {
+  display: flex;
+  flex-basis: 270px;
+}
 .section-header {
   justify-content: center;
 }
@@ -72,6 +61,8 @@ nav a:hover {
   color: rgba(0, 0, 0, 0.58);
 }
 
+/*Services*/
+
 .section-services {
   max-width: 1000px;
   justify-content: center;
@@ -79,9 +70,8 @@ nav a:hover {
 .section-services>.mdl-cell {
   flex-basis: 300px;
   flex-grow: 1;
-  /*justify-content: space-between;*/
 }
-.section-services .mdl-card__title,.section-services .mdl-card__supporting-text,.section-services .mdl-card__actions {
+.section-services .mdl-card__title, .section-services .mdl-card__supporting-text, .section-services .mdl-card__actions {
   display: flex;
   flex-flow: column wrap;
   box-sizing: border-box;
@@ -89,7 +79,6 @@ nav a:hover {
 }
 .section-services .mdl-card__title {
   padding-bottom: 0;
-  /*align-self: center;*/
   flex-basis: 108px;
   text-align: center;
   background-color: rgb(33, 150, 243);
@@ -105,6 +94,8 @@ nav a:hover {
   line-height: 1.5em;
   flex-grow: 1;
 }
+
+/*Footer*/
 
 .mdl-mega-footer--heading, .mdl-mega-footer__heading, .mdl-mega-footer--link-list li, .mdl-mega-footer__link-list li {
   font-size: 16px;
@@ -131,8 +122,33 @@ nav a:hover {
 .mdl-mega-footer--top-section:after, .mdl-mega-footer--middle-section:after, .mdl-mega-footer--bottom-section:after, .mdl-mega-footer__top-section:after, .mdl-mega-footer__middle-section:after, .mdl-mega-footer__bottom-section:after {
   content: none;
 }
-
-
 .signature a {
   text-decoration: none;
+}
+
+/* Material icons */
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
 }
