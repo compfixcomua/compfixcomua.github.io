@@ -3,6 +3,7 @@ html, body {
   font-family: "Roboto","Helvetica","Arial",sans-serif;
   font-size: 16px;
   line-height: 1.5em;
+  background-color: rgba(245, 245, 245, 0.5);
 }
 
 .main a {
@@ -35,28 +36,78 @@ html, body {
 
 .top-contacts {
   text-align: center;
+  background-color: rgb(240, 240, 240);
 }
 
 .section-header {
   justify-content: center;
 }
+.section-header>h2 {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.58);
+}
+
 .section-services {
   max-width: 1000px;
-  justify-content: space-around;
+  justify-content: center;
 }
 .section-services>.mdl-cell {
-
+  flex-basis: 300px;
+  flex-grow: 1;
+  /*justify-content: space-between;*/
 }
-
-/*TODO imgs and sizes*/
-.mdl-card__title {
-
+.section-services>.mdl-cell>.mdl-card__title,.section-services>.mdl-cell>.mdl-card__supporting-text,.section-services>.mdl-cell>.mdl-card__actions {
+  display: flex;
+  flex-flow: column wrap;
+  box-sizing: border-box;
+  width: 100%;
 }
-.mdl-card__supporting-text {
+.section-services>.mdl-cell>.mdl-card__title {
+  padding-bottom: 0;
+  /*align-self: center;*/
+  flex-basis: 108px;
+  text-align: center;
+  background-color: rgb(33, 150, 243);
+  color: rgba(255, 255, 255, 0.87);
+}
+.section-services>.mdl-cell>.mdl-card__title>.mdl-card__title-text {
+  align-self: center;
+}
+.section-services>.mdl-cell>.mdl-card__supporting-text {
   line-height: 1.5em;
+  flex-grow: 1;
 }
 
 .mdl-mega-footer--heading, .mdl-mega-footer__heading, .mdl-mega-footer--link-list li, .mdl-mega-footer__link-list li {
   font-size: 16px;
   line-height: 24px;
+}
+.mdl-mega-footer {
+  display: flex;
+  flex-direction: column;
+}
+.mdl-mega-footer__middle-section {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+.mdl-mega-footer__drop-down-section {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 300px;
+}
+.mdl-mega-footer__heading-checkbox {
+  margin: auto;
+}
+.mdl-mega-footer--top-section:after, .mdl-mega-footer--middle-section:after, .mdl-mega-footer--bottom-section:after, .mdl-mega-footer__top-section:after, .mdl-mega-footer__middle-section:after, .mdl-mega-footer__bottom-section:after {
+  content: none;
+}
+
+
+.signature {
+  align-self: center;
+}
+.signature a {
+  text-decoration: none;
 }

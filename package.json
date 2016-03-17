@@ -2,7 +2,7 @@
   "name": "compfixcomua.github.io",
   "version": "0.0.0",
   "description": "",
-  "main": "express.js",
+  "main": "",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,7 @@
     "url": "https://github.com/compfixcomua/compfixcomua.github.io.git"
   },
   "author": "rmrfroot",
-  "license": "ISC",
+  "license": "Apache v2.0",
   "bugs": {
     "url": "https://github.com/compfixcomua/compfixcomua.github.io/issues"
   },
