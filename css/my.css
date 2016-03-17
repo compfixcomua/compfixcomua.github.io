@@ -95,7 +95,7 @@ html, body {
 .mdl-mega-footer__drop-down-section {
   display: flex;
   flex-flow: column wrap;
-  flex-basis: 300px;
+  flex-basis: 260px;
 }
 .mdl-mega-footer__heading-checkbox {
   margin: auto;
