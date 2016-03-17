@@ -6,6 +6,31 @@ html, body {
   background-color: rgba(245, 245, 245, 0.5);
 }
 
+a:hover {
+  transition: 0.5s;
+}
+
+nav a:hover {
+  background-color: rgb(33, 140, 244);
+}
+
+.mdl-layout__header-row .is-active {
+  position: relative;
+  font-weight: bold;
+}
+
+.mdl-layout__header-row .is-active:after {
+  content: "";
+  width: 70%;
+  height: 3px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255,171,64);
+  left: 15%;
+}
+
 .main a {
   text-decoration: none;
 }
@@ -56,13 +81,13 @@ html, body {
   flex-grow: 1;
   /*justify-content: space-between;*/
 }
-.section-services>.mdl-cell>.mdl-card__title,.section-services>.mdl-cell>.mdl-card__supporting-text,.section-services>.mdl-cell>.mdl-card__actions {
+.section-services .mdl-card__title,.section-services .mdl-card__supporting-text,.section-services .mdl-card__actions {
   display: flex;
   flex-flow: column wrap;
   box-sizing: border-box;
   width: 100%;
 }
-.section-services>.mdl-cell>.mdl-card__title {
+.section-services .mdl-card__title {
   padding-bottom: 0;
   /*align-self: center;*/
   flex-basis: 108px;
@@ -70,10 +95,13 @@ html, body {
   background-color: rgb(33, 150, 243);
   color: rgba(255, 255, 255, 0.87);
 }
-.section-services>.mdl-cell>.mdl-card__title>.mdl-card__title-text {
+.section-services .mdl-card__title:hover {
+  background-color: rgb(33, 140, 244);
+}
+.section-services .mdl-card__title-text {
   align-self: center;
 }
-.section-services>.mdl-cell>.mdl-card__supporting-text {
+.section-services .mdl-card__supporting-text {
   line-height: 1.5em;
   flex-grow: 1;
 }
@@ -95,7 +123,7 @@ html, body {
 .mdl-mega-footer__drop-down-section {
   display: flex;
   flex-flow: column wrap;
-  flex-basis: 260px;
+  flex-basis: 220px;
 }
 .mdl-mega-footer__heading-checkbox {
   margin: auto;
@@ -105,9 +133,6 @@ html, body {
 }
 
 
-.signature {
-  align-self: center;
-}
 .signature a {
   text-decoration: none;
 }
