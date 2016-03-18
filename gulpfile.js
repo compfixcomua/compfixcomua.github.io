@@ -1,18 +1,14 @@
-var gulp        = require('gulp');
-var browserSync = require('browser-sync').create();
-var reload      = browserSync.reload;
+var gulp = require('gulp');
+var browserSync = require('browser-sync');
+var reload = browserSync.reload;
 
-// Save a reference to the `reload` method
+// watch files for changes and reload
+gulp.task('serve', function() {
+  browserSync({
+    server: {
+      baseDir: './'
+    }
+  });
 
-// Watch scss AND html files, doing different things with each.
-gulp.task('serve', function () {
-
-    // Serve files from the root of this project
-    browserSync.init({
-        server: {
-            baseDir: "./"
-        }
-    });
-
-    gulp.watch("*.html").on("change", reload);
+  gulp.watch(['*.html', 'css/**/*.css', 'js/**/*.js'], {cwd: './'}, reload);
 });
