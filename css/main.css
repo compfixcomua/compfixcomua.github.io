@@ -12,7 +12,22 @@ a:hover {
 
 /*Nav*/
 
-nav a:hover {
+nav .mdl-button, nav a, nav i {
+  color: rgba(255, 255, 255, 0.87);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+nav .mdl-menu {
+  background-color: rgb(74, 168, 242);
+}
+nav .mdl-menu__item > a {
+  text-transform: lowercase;
+  font-size: 14px;
+  font-weight: 400;
+}
+nav .mdl-button:hover, nav .mdl-menu__item:hover {
   background-color: rgb(33, 140, 244);
 }
 .mdl-layout__header-row .is-active {
@@ -37,6 +52,16 @@ nav a:hover {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
+}
+.mdl-layout__drawer {
+  overflow-y:auto;
+  background-color: rgb(33, 150, 243);
+}
+.mdl-layout__drawer .mdl-layout-title {
+  color: rgb(255, 255, 255);
+}
+.mdl-layout__drawer .mdl-button {
+  text-align: left;
 }
 
 /*Main*/
