@@ -1,0 +1,17 @@
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | CompFix</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="/css/material.blue-orange.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <!--[if lt IE 9]><script src="/js/html5shiv.min.js"></script><script src="/js/respond.min.js"></script><![endif]-->
+  {% if page.duplicate_content %}
+		<link rel="canonical" href="{{ page.duplicate_content }}" />
+	{% endif %}
+</head>

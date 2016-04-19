@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} | CompFix</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Jekyll v{{ jekyll.version }}">
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="/css/material.blue-orange.min.css">
-  <link rel="stylesheet" href="/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/css/main.css">
-  <!--[if lt IE 9]><script src="/js/html5shiv.min.js"></script><script src="/js/respond.min.js"></script><![endif]-->
-  {% if page.duplicate_content %}
-		<link rel="canonical" href="{{ page.duplicate_content }}" />
-	{% endif %}
-</head>
+{% include head.html %}
 
 <body>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -33,49 +17,7 @@
           {{ content }}
         </main>
       </div>
-      <footer class="mdl-mega-footer">
-        <div class="mdl-mega-footer__middle-section">
-          <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked="">
-            <h4 class="mdl-mega-footer__heading">Контакты</h4>
-            <ul class="mdl-mega-footer__link-list">
-              <li><i class="fa fa-building"></i>: Украина, 40000, г. Сумы</li>
-              <li><i class="fa fa-building"></i>: пер. Красовицкого 12/1</li>
-              <li><i class="fa fa-phone"></i>: +38 066 76 33 650</li>
-              <li><i class="fa fa-phone"></i>: (0542) 67 97 97</li>
-              <li><i class="fa fa-envelope"></i>: <a href="mailto:slava@compfix.com.ua">slava@compfix.com.ua</a></li>
-              <li><i class="fa fa-skype"></i>: slavakbb <a href="skype:slavakbb?call">Позвонить</a></li>
-            </ul>
-          </div>
-          <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked="">
-            <h4 class="mdl-mega-footer__heading">График работы</h4>
-            <ul class="mdl-mega-footer__link-list">
-              <li>Пн <i class="fa fa-clock-o"></i> 10:00-18:00</li>
-              <li>Вт <i class="fa fa-clock-o"></i> 10:00-18:00</li>
-              <li>Ср <i class="fa fa-clock-o"></i> 10:00-18:00</li>
-              <li>Чт <i class="fa fa-clock-o"></i> 10:00-18:00</li>
-              <li>Пт <i class="fa fa-clock-o"></i> 10:00-18:00</li>
-              <li>Сб <i class="fa fa-clock-o"></i> 10:00-16:00</li>
-            </ul>
-          </div>
-          <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked="">
-            <h4 class="mdl-mega-footer__heading">Популярные статьи</h4>
-            <ul class="mdl-mega-footer__link-list">
-              <li><i class="fa fa-chevron-right"></i> <a href="">Ремонт ноутбуков</a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="">Ремонт компьютеров</a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="">Ремонт телефонов</a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="">Ремонт мониторов</a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="">Ремонт принтеров</a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="">Продажа техники</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="signature"><i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="">rmrfroot</a></div>
-
-      </footer>
+      {% include footer.html %}
     </div>
   </div>
   <script defer src="/js/material.min.js"></script>

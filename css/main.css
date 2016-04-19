@@ -26,6 +26,7 @@ nav .mdl-menu {
   background-color: rgb(74, 168, 242);
 }
 nav .mdl-menu__item > a {
+  display: block;
   text-transform: lowercase;
   font-size: 14px;
   font-weight: 400;
@@ -152,6 +153,12 @@ nav .mdl-button:hover, nav .mdl-menu__item:hover {
   border-left: solid 3px rgb(255,171,64);
   line-height: 1.75em;
   padding-left: 10px;
+}
+.article hr {
+  height: 3px;
+  width: 200px;
+  margin: 40px auto ;
+  border-top: 3px solid rgb(255,171,64);
 }
 
 /*Footer*/
