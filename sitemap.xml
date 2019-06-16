@@ -6,51 +6,51 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://compfix.com.ua/</loc>
+  <loc>https://compfix.com.ua/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 <url>
-  <loc>http://compfix.com.ua/services/sell/</loc>
+  <loc>https://compfix.com.ua/services/sell/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 <url>
-  <loc>http://compfix.com.ua/services/laptop_repair/</loc>
+  <loc>https://compfix.com.ua/services/laptop_repair/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 <url>
-  <loc>http://compfix.com.ua/services/computer_repair/</loc>
+  <loc>https://compfix.com.ua/services/computer_repair/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 <url>
-  <loc>http://compfix.com.ua/services/bicycle/</loc>
+  <loc>https://compfix.com.ua/services/bicycle/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 <url>
-  <loc>http://compfix.com.ua/services/monitor_repair/</loc>
+  <loc>https://compfix.com.ua/services/monitor_repair/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 <url>
-  <loc>http://compfix.com.ua/services/printer_repair/</loc>
+  <loc>https://compfix.com.ua/services/printer_repair/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 <url>
-  <loc>http://compfix.com.ua/services/tablet_repair/</loc>
+  <loc>https://compfix.com.ua/services/tablet_repair/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 <url>
-  <loc>http://compfix.com.ua/services/phone_repair/</loc>
+  <loc>https://compfix.com.ua/services/phone_repair/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 <url>
-  <loc>http://compfix.com.ua/services/navigator_repair/</loc>
+  <loc>https://compfix.com.ua/services/navigator_repair/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 <url>
-  <loc>http://compfix.com.ua/about/</loc>
+  <loc>https://compfix.com.ua/about/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 <url>
-  <loc>http://compfix.com.ua/contacts/</loc>
+  <loc>https://compfix.com.ua/contacts/</loc>
   <lastmod>2017-04-21T12:59:40+00:00</lastmod>
 </url>
 </urlset>
