@@ -1,1 +1,1 @@
-Sitemap: https://compfix.com.ua/sitemap_location.xml
+Sitemap: https://compfix.com.ua/sitemap.xml
