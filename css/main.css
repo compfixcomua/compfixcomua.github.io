@@ -62,7 +62,7 @@ nav .mdl-button:hover, nav .mdl-menu__item:hover {
   background-color: rgb(33, 150, 243);
 }
 .mdl-layout__drawer .mdl-layout-title {
-  color: rgb(255, 255, 255);
+  color: red;
 }
 .mdl-layout__drawer .mdl-button {
   text-align: left;
