@@ -34,10 +34,12 @@ nav .mdl-menu__item > a {
 nav .mdl-button:hover, nav .mdl-menu__item:hover {
   background-color: rgb(33, 140, 244);
 }
+.mdl-layout__header {
+  color: yellow;
+}
 .mdl-layout__header-row .is-active {
   position: relative;
   font-weight: bold;
-  color: yellow;
 }
 .mdl-layout__header-row .is-active:after {
   content: "";
